@@ -303,6 +303,7 @@ endif()
 
 # Build:
 target_include_directories(DRAMSysLibrary
+    PUBLIC src
     PUBLIC src/common/third_party/DRAMPower/src/
     PUBLIC $ENV{SYSTEMC_HOME}/include/
     PUBLIC $ENV{SYSTEMC_HOME}/include/tlm/
