@@ -38,7 +38,7 @@ cmake_minimum_required(VERSION 3.10)
 project(DRAMSys)
 
 # Configuration:
-set(CMAKE_CXX_STANDARD 11 CACHE STRING "C++ Version")
+set(CMAKE_CXX_STANDARD 14 CACHE STRING "C++ Version")
 set(DCMAKE_SH "CMAKE_SH-NOTFOUND" CACHE STRING "Ignore sh.exe error on Windows")
 
 # Add DRAMSysLibrary:
